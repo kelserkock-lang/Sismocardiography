@@ -1,0 +1,49 @@
+# Dados de pacientes (NÃO versionar)
+_cache_pacientes/
+PESQUISA_PIBIC_SISMO/
+*.xls
+*.xlsx
+*.npz
+*.pkl
+
+# Saídas geradas
+pontos_automaticos/
+*.docx
+*.pdf
+*.png
+pontos_automaticos_resumo.csv
+resultados_scg.csv
+
+# Ambiente Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Sistema / editor
+.DS_Store
+desktop.ini
+.vscode/
+
+# Artigos científicos (evitar violação de direitos autorais)
+biosensors-12-00374.md
+definition-of-fiducial-points-in-the-normal-seismocardiogram-46fmje2yjm.md
+fdgth-7-1699611.md
+fphys-13-825918.md
+fphys-17-1823345.md
+s41598-018-33675-6 (1).md
+
+# Scripts de análises prévias/experimentais (não fazem parte do projeto final)
+analisar_anotacoes.py
+analise_fiduciais.py
+analise_scg.py
+analise_scg_final.py
+analise_scg_template.py
+analise_scg_v2.py
+analise_scg_v3_hibrido.py
+analise_scg_v4_autocorr.py
+analise_scg_wavelet.py
+dashboard_pacientes.py
+gerar_resultados_finais.py
+preparar_todos.py
+template_geral.py
